@@ -1,5 +1,4 @@
 import express, { Application, Request, Response } from "express";
-import https from "https";
 import { getCurrencyData } from "./libs/binance-api-client.js"
 
 const app : Application = express();
